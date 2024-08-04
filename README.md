@@ -57,7 +57,7 @@ I have wrote code which you can use JARVIS in the following ways :
 
 > **NOTE:** Before running the code you must make sure you have all the modules installed in your python version(***NOTE:*** python version can be >=3.6).
 
-## These are the following modules used in JARVIS📚 :
+## These are the following modules used in PHOENIX📚 :
 
 [SpeechRecognisation](https://pypi.org/project/SpeechRecognition/) | [PyAudio](https://pypi.org/project/PyAudio/) | [pyttsx3](https://pypi.org/project/pyttsx3/) | [pywhatkit](https://pypi.org/project/pywhatkit/) | [datetime](https://pypi.org/project/DateTime/) | [wikipedia](https://pypi.org/project/wikipedia/) | [pyjokes](https://pypi.org/project/pyjokes/) | [cv2](https://pypi.org/project/opencv-python/) | [cv2 tools](https://pypi.org/project/cv2-tools/) | [requests](https://pypi.org/project/requests/) | [smtplib](https://pypi.org/project/secure-smtplib/) | [psutil](https://pypi.org/project/psutil/) | [random](https://pypi.org/project/random2/) | [instaloader](https://pypi.org/project/instaloader/) | [PyAutoGUI](https://pypi.org/project/PyAutoGUI/) | [PyPDF2](https://pypi.org/project/PyPDF2/) | [bs4](https://pypi.org/project/bs4/) | [PyQt5](https://pypi.org/project/PyQt5-Qt5/) | [pywikihow](https://pypi.org/project/pywikihow/) | [speed test](https://pypi.org/project/speedtest-cli/) | [pytube](https://pypi.org/project/pytube/) | [numpy](https://pypi.org/project/numpy/) | [urllib](https://pypi.org/project/urllib3/) | [covid](https://pypi.org/project/covid-india/) | [phonenumbers](https://pypi.org/project/phonenumbers/) | [folium](https://pypi.org/project/folium/) | [opencage](https://pypi.org/project/opencage/) | [pillow](https://pypi.org/project/Pillow/) | [Pywave](https://pypi.org/project/PyWave/) | [win32api](https://pypi.org/project/pywin32/) | [mscvrt](https://docs.python.org/dev/library/msvcrt.html#msvcrt.kbhit)
 
@@ -71,18 +71,18 @@ To run this project you should need some API key's for reading news, for finding
 ## Installation 💻
 - You need to first ```fork``` this repository and ```clone``` the repository to your local system 
 
-    ```git clone https://github.com/<your-github-username>/JARVIS-Python-Voice-Assistant.git```
+    ```git clone https://github.com/<your-github-username>/PHOENIX-Python-Voice-Assistant.git```
 - Make sure to install all the required python modules mentioned above or you can simply install them by 
 
     ```pip install -r requirements.txt```
 
 - Add your **gmail id** and **password** to send emails(line:797,798)
 - Make sure you have registerd in [NewsAPI](https://newsapi.org/) and replace the ```apiKey=```**```YOUR_NEWS_API_KEY```** with your API key(Line: 852) and in [Open cage](https://opencagedata.com/) and replace the ```API_key =``` "**```_OPEN_CAGE_GEOCODE_API_KEY_```**" with your API key(PhoneNumber.py(lineNo: 13))
-- For using mobile camera you need to first install an app in mobile called [IP Webcam](https://play.google.com/store/apps/details?id=com.pas.webcam&hl=en_US&gl=US) after installing go to **START SERVER** it will open your mobile camara at the bottom of the screen you can see **IPv4** there you can find the IP address and replace ```_IP_Webcam_IP_address_``` with the IP address in ```JARVIS.py``` MobileCamera function(line: 332)
+- For using mobile camera you need to first install an app in mobile called [IP Webcam](https://play.google.com/store/apps/details?id=com.pas.webcam&hl=en_US&gl=US) after installing go to **START SERVER** it will open your mobile camara at the bottom of the screen you can see **IPv4** there you can find the IP address and replace ```_IP_Webcam_IP_address_``` with the IP address in ```PHOENIX.py``` MobileCamera function(line: 332)
 
 That's it for now **#Enjoy** speaking with your computer friend 😁
 
-## FINAL GUI of JARVIS😎
+## FINAL GUI of PHOENIX😎
 
 ![Capture](https://user-images.githubusercontent.com/98808802/221436409-5b62f953-4142-47ea-b71d-82bf143df5bd.JPG)
 
