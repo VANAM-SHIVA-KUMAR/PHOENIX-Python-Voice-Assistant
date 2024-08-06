@@ -1,7 +1,7 @@
 # Python-Smart-AI-Voice-Assistant
 Visit our Website - [https://PHOENIX-Python-Voice-Assistant/](https://github.com/VANAM-SHIVA-KUMAR/PHOENIX-Python-Voice-Assistant)
 
-The aim of this project is to introduce JARVIS AI Python Assistant, an innovative artificial intelligence (AI) tool that will automate tasks, provide support, and simplify processes. A Python-based voice assistant that can greet you and perform a variety of tasks, including searching the web, opening social media, and creating a to-do list and much more to play with the amazing features.
+The aim of this project is to introduce PHOENIX AI Python Assistant, an innovative artificial intelligence (AI) tool that will automate tasks, provide support, and simplify processes. A Python-based voice assistant that can greet you and perform a variety of tasks, including searching the web, opening social media, and creating a to-do list and much more to play with the amazing features.
 
 The AI assistant will automate tasks, provide support, and simplify processes, freeing up valuable time and improving efficiency. 
 
