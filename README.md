@@ -12,7 +12,7 @@ It is a voice assistant which can be used to interact with your computer and als
 
 ## Cool functionalities of PHOENIX 😎 :)
 
-I have wrote code which you can use JARVIS in the following ways :
+I have wrote code which you can use PHOENIX in the following ways :
 
 - It can tell **count of Covid-19 cases for each state in India**
 - It can do **Screen Recording with voice recording** stuff.
