@@ -1,11 +1,11 @@
 # Introduction 👨‍💻
 It is a voice assistant which can be used to interact with your computer and also you have been seeing it in Iron man movies, but this JARVIS is not that much advanced as shown in movies. 
 
-- Demo video for ***JARVIS*** is available [here](https://youtu.be/SjwXXjhMQWs)
+- Demo video for ***PHOENIX*** is available [here](https://youtu.be/)
 
-## Cool functionalities of JARVIS 😎 :)
+## Cool functionalities of PHOENIX 😎 :)
 
-I have wrote code which you can use JARVIS in the following ways :
+I have wrote code which you can use PHOENIX in the following ways :
 
 - It can tell **count of Covid-19 cases for each state in India**
 - It can do **Screen Recording with voice recording** stuff.
@@ -50,7 +50,7 @@ I have wrote code which you can use JARVIS in the following ways :
 
 > **NOTE:** Before running the code you must make sure you have all the modules installed in your python version(***NOTE:*** python version can be >=3.6).
 
-## These are the following modules used in JARVIS📚 :
+## These are the following modules used in PHOENIX📚 :
 
 [SpeechRecognisation](https://pypi.org/project/SpeechRecognition/) | [PyAudio](https://pypi.org/project/PyAudio/) | [pyttsx3](https://pypi.org/project/pyttsx3/) | [pywhatkit](https://pypi.org/project/pywhatkit/) | [datetime](https://pypi.org/project/DateTime/) | [wikipedia](https://pypi.org/project/wikipedia/) | [pyjokes](https://pypi.org/project/pyjokes/) | [cv2](https://pypi.org/project/opencv-python/) | [cv2 tools](https://pypi.org/project/cv2-tools/) | [requests](https://pypi.org/project/requests/) | [smtplib](https://pypi.org/project/secure-smtplib/) | [psutil](https://pypi.org/project/psutil/) | [random](https://pypi.org/project/random2/) | [instaloader](https://pypi.org/project/instaloader/) | [PyAutoGUI](https://pypi.org/project/PyAutoGUI/) | [PyPDF2](https://pypi.org/project/PyPDF2/) | [bs4](https://pypi.org/project/bs4/) | [PyQt5](https://pypi.org/project/PyQt5-Qt5/) | [pywikihow](https://pypi.org/project/pywikihow/) | [speed test](https://pypi.org/project/speedtest-cli/) | [pytube](https://pypi.org/project/pytube/) | [numpy](https://pypi.org/project/numpy/) | [urllib](https://pypi.org/project/urllib3/) | [covid](https://pypi.org/project/covid-india/) | [phonenumbers](https://pypi.org/project/phonenumbers/) | [folium](https://pypi.org/project/folium/) | [opencage](https://pypi.org/project/opencage/) | [pillow](https://pypi.org/project/Pillow/) | [Pywave](https://pypi.org/project/PyWave/) | [win32api](https://pypi.org/project/pywin32/) | [mscvrt](https://docs.python.org/dev/library/msvcrt.html#msvcrt.kbhit)
 
@@ -76,7 +76,7 @@ To run this project you should need some API key's for reading news, for finding
 
 That's it for now **#Enjoy** speaking with your computer friend 😁
 
-## FINAL GUI of JARVIS😎
+## FINAL GUI of PHOENIX😎
 
 ![Capture](https://user-images.githubusercontent.com/98808802/221436409-5b62f953-4142-47ea-b71d-82bf143df5bd.JPG)
 
