@@ -1,12 +1,13 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 
-class Ui_JarvisUI(object):
-    cpath =""
-    def setupUi(self, JarvisUI):
-        JarvisUI.setObjectName("JarvisUI")
+class Ui_PhoenixUI(object):
+    cpath = ""
+
+    def setupUi(self, PhoenixUI):
+        JarvisUI.setObjectName("PhoenixUI")
         JarvisUI.resize(1819, 926)
-        self.centralwidget = QtWidgets.QWidget(JarvisUI)
+        self.centralwidget = QtWidgets.QWidget(PhoenixUI)
         self.centralwidget.setObjectName("centralwidget")
         self.label = QtWidgets.QLabel(self.centralwidget)
         self.label.setGeometry(QtCore.QRect(-80, -50, 1981, 1091))
@@ -39,16 +40,16 @@ class Ui_JarvisUI(object):
         self.textBrowser = QtWidgets.QTextBrowser(self.centralwidget)
         self.textBrowser.setGeometry(QtCore.QRect(1200, 50, 181, 51))
         self.textBrowser.setStyleSheet("background:transparent;\n"
-        "border-radius:skyblue;\n"
-        "color : white;\n"
-        "font-size:20px;")
+                                       "border-radius:skyblue;\n"
+                                       "color : white;\n"
+                                       "font-size:20px;")
         self.textBrowser.setObjectName("textBrowser")
         self.textBrowser_2 = QtWidgets.QTextBrowser(self.centralwidget)
         self.textBrowser_2.setGeometry(QtCore.QRect(1400, 50, 181, 51))
         self.textBrowser_2.setStyleSheet("background:transparent;\n"
-        "border-radius:skyblue;\n"
-        "color : white;\n"
-        "font-size:20px;")
+                                         "border-radius:skyblue;\n"
+                                         "color : white;\n"
+                                         "font-size:20px;")
         self.textBrowser_2.setObjectName("textBrowser_2")
         self.label_3 = QtWidgets.QLabel(self.centralwidget)
         self.label_3.setGeometry(QtCore.QRect(580, 360, 661, 381))
@@ -126,13 +127,13 @@ class Ui_JarvisUI(object):
         self.label_14.setGeometry(QtCore.QRect(1210, 20, 91, 31))
         self.label_14.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.label_14.setStyleSheet("color: rgb(93, 234, 255);\n"
-        "font: 75 11pt \"MS Shell Dlg 2\";")
+                                    "font: 75 11pt \"MS Shell Dlg 2\";")
         self.label_14.setObjectName("label_14")
         self.label_15 = QtWidgets.QLabel(self.centralwidget)
         self.label_15.setGeometry(QtCore.QRect(1390, 20, 91, 31))
         self.label_15.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.label_15.setStyleSheet("color: rgb(93, 234, 255);\n"
-        "font: 75 11pt \"MS Shell Dlg 2\";")
+                                    "font: 75 11pt \"MS Shell Dlg 2\";")
         self.label_15.setObjectName("label_15")
         self.label_16 = QtWidgets.QLabel(self.centralwidget)
         self.label_16.setGeometry(QtCore.QRect(340, 370, 251, 371))
@@ -172,14 +173,14 @@ class Ui_JarvisUI(object):
         self.retranslateUi(JarvisUI)
         QtCore.QMetaObject.connectSlotsByName(JarvisUI)
 
-    def retranslateUi(self, JarvisUI):
+    def retranslateUi(self, PhoenixUI):
         _translate = QtCore.QCoreApplication.translate
-        JarvisUI.setWindowTitle(_translate("JarvisUI", "MainWindow"))
-        self.pushButton_3.setText(_translate("JarvisUI", "EXIT"))
-        self.pushButton_4.setText(_translate("JarvisUI", "RUN"))
-        self.label_14.setText(_translate("JarvisUI", "    DATE"))
-        self.label_15.setText(_translate("JarvisUI", "      TIME"))
-    
+        JarvisUI.setWindowTitle(_translate("PhoenixUI", "MainWindow"))
+        self.pushButton_3.setText(_translate("PhoenixUI", "EXIT"))
+        self.pushButton_4.setText(_translate("PhoenixUI", "RUN"))
+        self.label_14.setText(_translate("PhoenixUI", "    DATE"))
+        self.label_15.setText(_translate("PhoenixUI", "      TIME"))
+
     def __init__(self, path):
         self.cpath = path
 
@@ -187,11 +188,11 @@ class Ui_JarvisUI(object):
 if __name__ == "__main__":
     import sys
     import os
-    
+
     current_path = os.getcwd()
     app = QtWidgets.QApplication(sys.argv)
     JarvisUI = QtWidgets.QMainWindow()
-    ui = Ui_JarvisUI(path=current_path)
-    ui.setupUi(JarvisUI)
-    JarvisUI.show()
+    ui = Ui_PhoenixUI(path=current_path)
+    ui.setupUi(PhoenixUI)
+    PhoenixUI.show()
     sys.exit(app.exec_())

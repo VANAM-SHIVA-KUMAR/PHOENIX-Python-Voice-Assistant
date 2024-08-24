@@ -11,11 +11,11 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 
-class Ui_JarvisUi(object):
-    def setupUi(self, JarvisUi):
-        JarvisUi.setObjectName("JarvisUi")
-        JarvisUi.resize(1267, 742)
-        self.centralwidget = QtWidgets.QWidget(JarvisUi)
+class Ui_PhoenixUi(object):
+    def setupUi(self, PhoenixUi):
+        PhoenixUi.setObjectName("PhoenixUi")
+        PhoenixUi.resize(1267, 742)
+        self.centralwidget = QtWidgets.QWidget(PhoenixUi)
         self.centralwidget.setObjectName("centralwidget")
         self.bg_1 = QtWidgets.QLabel(self.centralwidget)
         self.bg_1.setGeometry(QtCore.QRect(-80, -10, 1951, 811))
@@ -196,49 +196,49 @@ class Ui_JarvisUi(object):
         self.pushButton_whatsapp.raise_()
         self.gif_3.raise_()
         self.gif_5.raise_()
-        JarvisUi.setCentralWidget(self.centralwidget)
-        self.statusbar = QtWidgets.QStatusBar(JarvisUi)
+        PhoenixUi.setCentralWidget(self.centralwidget)
+        self.statusbar = QtWidgets.QStatusBar(PhoenixUi)
         self.statusbar.setObjectName("statusbar")
-        JarvisUi.setStatusBar(self.statusbar)
+        PhoenixUi.setStatusBar(self.statusbar)
 
-        self.retranslateUi(JarvisUi)
-        QtCore.QMetaObject.connectSlotsByName(JarvisUi)
+        self.retranslateUi(PhoenixUi)
+        QtCore.QMetaObject.connectSlotsByName(PhoenixUi)
 
-    def retranslateUi(self, JarvisUi):
+    def retranslateUi(self, PhoenixUi):
         _translate = QtCore.QCoreApplication.translate
-        JarvisUi.setWindowTitle(_translate("JarvisUi", "MainWindow"))
-        self.Text_Time.setHtml(_translate("JarvisUi", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+        PhoenixUi.setWindowTitle(_translate("PhoenixUi", "MainWindow"))
+        self.Text_Time.setHtml(_translate("PhoenixUi", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'MS Sans Serif\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
 "<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:14pt;\"><br /></p></body></html>"))
-        self.Text_Day.setHtml(_translate("JarvisUi", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+        self.Text_Day.setHtml(_translate("PhoenixUi", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'MS Sans Serif\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
 "<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:14pt;\"><br /></p></body></html>"))
-        self.Text_Date.setHtml(_translate("JarvisUi", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+        self.Text_Date.setHtml(_translate("PhoenixUi", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'MS Sans Serif\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
 "<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>"))
-        self.Text_Temperature.setHtml(_translate("JarvisUi", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+        self.Text_Temperature.setHtml(_translate("PhoenixUi", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'MS Sans Serif\'; font-size:12pt; font-weight:400; font-style:normal;\">\n"
 "<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:14pt;\"><br /></p></body></html>"))
-        self.pushButton_start.setText(_translate("JarvisUi", "START"))
-        self.pushButton_exit.setText(_translate("JarvisUi", "EXIT"))
-        self.pushButton_youtube.setText(_translate("JarvisUi", "YouTube"))
-        self.pushButton_chrome.setText(_translate("JarvisUi", "Chrome"))
-        self.pushButton_whatsapp.setText(_translate("JarvisUi", "Whatsapp"))
+        self.pushButton_start.setText(_translate("PhoenixUi", "START"))
+        self.pushButton_exit.setText(_translate("PhoenixUi", "EXIT"))
+        self.pushButton_youtube.setText(_translate("PhoenixUi", "YouTube"))
+        self.pushButton_chrome.setText(_translate("PhoenixUi", "Chrome"))
+        self.pushButton_whatsapp.setText(_translate("PhoenixUi", "Whatsapp"))
 
 
 if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
-    JarvisUi = QtWidgets.QMainWindow()
-    ui = Ui_JarvisUi()
-    ui.setupUi(JarvisUi)
-    JarvisUi.show()
+    PhoenixUi = QtWidgets.QMainWindow()
+    ui = Ui_PhoenixUi()
+    ui.setupUi(PhoenixUi)
+    PhoenixUi.show()
     sys.exit(app.exec_())
