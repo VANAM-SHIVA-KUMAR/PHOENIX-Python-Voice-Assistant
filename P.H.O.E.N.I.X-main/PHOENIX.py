@@ -175,7 +175,7 @@ class MainThread(QThread):
                 self.shopping(self.command)
 
             elif ('where I am' in self.command) or ('where we are' in self.command):
-                self.locaiton()
+                self.location()
 
             elif ('command prompt' in self.command):
                 self.talk('Opening command prompt')
